@@ -10,7 +10,7 @@ VENDORED_PATH=/app/vendor/libffi-3.0
 source $BIN_DIR/utils
 
 # Always install libffi.
-echo "-----> Noticed cffi. Bootstrapping libffi."
+echo "-----> Bootstrapping libffi."
 PREV_DIR=$(pwd)
 mkdir -p "$VENDORED_PATH"
 cd "$VENDORED_PATH"
